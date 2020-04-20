@@ -1,5 +1,7 @@
 Cloud-Mini-Project
+
 Name: John Marston
+
 Student ID: 150490674
 
 Below are all the steps in creating my app.
