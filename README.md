@@ -23,10 +23,10 @@ Task 5: I then used docker to build the container image using the following comm
 Task 6: Following the guidance from the lab 10 manual I created my Dockerfile and requirements.txt, which were adjusted to specifically work for my code.
 
 Task 7: I created my basic app CW.py, which is designed to perform a GET, POST, PUT and DELETE request by querying data from my stop and search table in Cassandra. The requests created are outlined below:
-  - GET: Takes as argument an integer, ID, in the address bar (/<id>) and, if the id exists in the table, returns the id 
+  - GET: Takes as argument an integer, ID, in the address bar (/id) and, if the id exists in the table, returns the id 
     number and the gender of the person for the specified id entry, or if the id doesn't exist will return an error message.
   - POST: Takes same argument as the GET request and if the id doesn't exist, creates the id along with a specified gender in the code,     otherwise returns an error.
-  - PUT: Takes the id and gender (/<id>/<gender>) and will output a message containing the new id and gender specified, if the id           already exists, otherwise it should return an error.
+  - PUT: Takes the id and gender (/id/gender) and will output a message containing the new id and gender specified, if the id           already exists, otherwise it should return an error.
   - DELETE: Takes the id as an argument and if it exists, it will delete the entry, otherwise an error message should appear.
 
 Task 8: To test my code I used the following methods:
