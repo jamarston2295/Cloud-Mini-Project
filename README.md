@@ -38,9 +38,9 @@ Task 8: To test my code I used the following methods:
          http://ec2-18-215-235-173.compute-1.amazonaws.com/stop_and_search/64 - should return an error
   - POST: curl -X "POST" http://ec2-18-215-235-173.compute-1.amazonaws.com/stop_and_search/64 - should create successfully
           curl -X "POST" http://ec2-18-215-235-173.compute-1.amazonaws.com/stop_and_search/1 - should return error
-  - PUT: curl -X "POST" http://ec2-18-215-235-173.compute-1.amazonaws.com/stop_and_search/1 - should create successfully
-         curl -X "POST" http://ec2-18-215-235-173.compute-1.amazonaws.com/stop_and_search/65 - should return error
-  - DELETE: curl -X "POST" http://ec2-18-215-235-173.compute-1.amazonaws.com/stop_and_search/1 - should create successfully
-            curl -X "POST" http://ec2-18-215-235-173.compute-1.amazonaws.com/stop_and_search/65 - should return error
+  - PUT: curl -X "PUT" http://ec2-18-215-235-173.compute-1.amazonaws.com/stop_and_search/1 - should create successfully
+         curl -X "PUT" http://ec2-18-215-235-173.compute-1.amazonaws.com/stop_and_search/65 - should return error
+  - DELETE: curl -X "DELETE" http://ec2-18-215-235-173.compute-1.amazonaws.com/stop_and_search/1 - should delete successfully
+            curl -X "DELETE" http://ec2-18-215-235-173.compute-1.amazonaws.com/stop_and_search/65 - should return error
           
           
