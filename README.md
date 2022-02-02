@@ -2,8 +2,6 @@ Cloud-Mini-Project
 
 Name: John Marston
 
-Student ID: 150490674
-
 Below are all the steps in creating my app.
 
 Task 1: After creating an aws instance I had to set up my laptop to run this instance. To do this I installed putty and puttygen to convert my .pem file to a .ppk and run the instance using windows. I also installed an ubuntu app so I could use linux commands.
